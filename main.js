@@ -37,7 +37,7 @@ console.log(`Searching: "${KEYWORD}" | Location: "${LOCATION}" | Last 24 hours`)
 const jobs = [];
 
 const crawler = new CheerioCrawler({
-    maxRequestsPerCrawl: 20,
+    maxRequestsPerCrawl: 50,
     requestHandlerTimeoutSecs: 90,
     maxConcurrency: 2,
 
